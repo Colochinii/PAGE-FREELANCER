@@ -1,0 +1,76 @@
+/* determino el estilo de mi pagina web y debemos enlazarlo a nuestro codigo fuente html */
+
+/* this section is about color en HEX or RGBA */
+:root{
+    /* include my own palette of colors */
+    --color1:#8294C4;
+    --color2:#ACB1D6;
+    --color3:#DBDFEA;
+    --color4:#E06469;
+
+    /* most common colors background */
+    --blanco:#ffffff;
+    --negro:#212121;
+    --primario: #FFEAD2;
+    --secundario:#ACB1D6;
+
+    /* definition of text */
+    --titulo-principal:3rem;
+    --parrafo: 1rem;
+
+    /* size of text */
+    --normal: 100;
+
+
+}
+
+
+/* ----------------------laway in your progrma to adapt the words in a diferente ways to size  */
+html{
+
+        font-size: 62.5%;
+}
+body{
+
+
+        font-size: 16px;
+        font-family: 'Darumadrop One', cursive;
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* we modify our header H1 */
+.titulo{
+    text-align:center;
+    color: var(--color4);
+    font-size: var(--titulo-principal);
+    font-weight: var(--normal);
+/* we finish them to edit our header */
+}
+/* we go to add stylus to the header sapn  */
+.titulo span{
+    font-size: var(--parrafo);
+    color: var(--color2);
+   
+/* we finished the edit the header of span*/
+}
+
+.navegacion{
+
+}
+.barra-navegacion{
+    background-color: var(--color1);
+
+}
+.contenedor{
+    width: 100rem;
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
+
+
